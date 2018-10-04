@@ -15,3 +15,5 @@ Add as many services from `/etc/services` to `/etc/zabbix/zabbix_agentd.d/tcp_st
 `UserParameter=tcp.discovery, python /etc/zabbix/scripts/template_tcp_stats/tcp_services_discovery.py http ssh mysql`
 
 Each service will have its own graph in zabbix
+![Alt text](readme_img/g_1.png?raw=true "all tcp connections")
+![Alt text](readme_img/g_2.png?raw=true "mysql tcp connections")
